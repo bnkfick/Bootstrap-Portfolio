@@ -3,44 +3,80 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>About | Your Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <title>About | Barbara Fick</title>
+
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
+  <header>
+
+    <nav class="navbar navbar-light bg-light">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Barbara Fick</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
   </header>
 
+
+
   <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
+    <div class="row">
+      <div class="col-md-12">
+        <section class="main-section">
+          <h1>About Me</h1>
+          <!-- bootstrap img-fluid resizes images -->
+          <img src="assets/images/bio_photo.jpg" class="bio-img img-fluid" alt="Barbara Fick">
 
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
+            porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa.
+            Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae
+            sollicitudin consectetur.</p>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
+          <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id
+            eros iaculis, pulvinar quam eget, egestas mauris.</p>
 
-      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+          <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor
+            et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
-      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </section>
+      </div>
+    </div>
 
-    </section>
 
   </div>
 
+
+
   <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
+    <!-- Copyright -->
+    <div class="copyright">copyright 2018</div>
   </footer>
+
+
 </body>
 
 </html>
