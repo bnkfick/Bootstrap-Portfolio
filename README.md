@@ -22,11 +22,11 @@ Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 /*-------------------------------STEP BY STEP TODO LIST------------------------------------------*/
 
 Design Layout using Bootstrap and Bootstrap Grids - use md sizing
-1) Basic HTML Page with 
-    links to bootstrap styles
-    local styles
-    any necessary javascript? (hamburger menu?)
-    meta viewport tag
+1) Set up the Basic Frame for the 3 HTML Pages with 
+    -links to bootstrap styles
+    -local styles
+    -any necessary javascript? (hamburger menu?)
+    -meta viewport tag
 
 2) Add in the sticky header
 3) Add in the sticky footer
@@ -36,8 +36,8 @@ Design Layout using Bootstrap and Bootstrap Grids - use md sizing
 
     Header bar bottom padding
     Link on Barbara Fick but going to keep that
-    
-5) Eliminate any styles and links that are not being used - is there a tool for this?
+
+5) Use Bootstrap Form Elements
 
 6) Layer in xs, sm, md, lg column width styles to accomodate padding etc.  
 The page is simple and bootstrap collapses and expands the navbar, photo and text 
@@ -45,8 +45,13 @@ The page is simple and bootstrap collapses and expands the navbar, photo and tex
     Does the navbar collapse
     tab with name
     links - stacked on top of one another
+
+    started working on the homework and not sure how the navbar about/portfolio/contact links are supposed to collapse.  
+
     image
     text beneath image
     footer
 
     image resizes (img-fluid)
+
+7) Eliminate any styles and links that are not being used - is there a tool for this?
