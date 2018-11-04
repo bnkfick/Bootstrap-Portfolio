@@ -150,12 +150,11 @@ textarea {
   border: 1px solid #dddddd;
 }
 
-textarea {
-  height: 200px;
-}
 
-input[type=submit] {
-  padding: 10px 30px;
+
+button[type=submit] {
+  border-radius: 0;
+  padding: 15px 30px;
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
@@ -163,6 +162,9 @@ input[type=submit] {
   border: 0 none;
 }
 
+button[type="submit"]:hover {
+  color:#eee;
+} 
 
 /* portfolio page */
 
