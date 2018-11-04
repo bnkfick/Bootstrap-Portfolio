@@ -17,6 +17,45 @@ body {
   clear: both;
 }
 
+
+/*---------  navbar styles -----------*/
+header {
+  letter-spacing: 3px;
+}
+
+/* use this to remove the padding and add a bottom border to the navbar */
+.navbar {
+  padding: 0;
+  background-color: #fff;
+  border-bottom: 3px solid #cccccc;
+}
+
+/* I don't know why I have to make these gray.
+Not sure what class modifier to add to the navbar to get this to show up */
+.navbar-toggle, .navbar-toggle .icon-bar { 
+  border: 1px solid #cccccc;
+}
+
+.navbar-nav {
+  padding-top: 25px;
+}
+.navbar li a {
+  color: #777777;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.navbar-brand {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background-color: #4aaaa5;
+  color: #fff;
+  padding: 25px 25px 25px 25px;
+  height: 75px;
+}
+
+
+
 /* main */
 #main-container {
   padding-top: 50px;
