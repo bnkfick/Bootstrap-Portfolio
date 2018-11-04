@@ -6,13 +6,16 @@ body {
   background: url("../images/bananas.png");
 }
 
+/*-------- I think this is redundant, Bootstrap already uses border-box -----*/
 * {
   box-sizing: border-box;
 }
 
+/*---extends Bootstrap container - used for navbar, main content box, not footer? -----------*/
 .container {
   width: 100%;
   max-width: 960px;
+  min-width: 250px;
   margin: 0 auto;
   clear: both;
 }
@@ -61,7 +64,7 @@ Not sure what class modifier to add to the navbar to get this to show up */
   padding-top: 50px;
   padding-left:0;
   padding-right:0;
-  min-height: calc(100vh - 70px);
+
 }
 
 h1,
@@ -196,5 +199,9 @@ footer {
   background: #666666;
   border-top: 8px solid #4aaaa5;
   height: 50px;
+
+  width: 100%;
+  min-width: 250px;
+  margin: 0 auto;
 }
 
