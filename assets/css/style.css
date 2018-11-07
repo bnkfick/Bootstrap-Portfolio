@@ -235,4 +235,8 @@ footer .copyright {
   #main-container {
     padding-top: 30px;
   }
+  .bio-img {
+    float: none;
+  }
 }
+
